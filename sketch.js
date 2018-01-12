@@ -1,6 +1,6 @@
 var font;
 var vehicles = [];
-var bg;
+//var bg;
 
 
 function preload() {
@@ -8,9 +8,9 @@ function preload() {
 }
 
 function setup() {
-  bg = loadImage('17.jpg')
+ // bg = loadImage('17.jpg')
   createCanvas(700, 600);
-  // background(51);
+   background(51);
 
   // textFont(font);
   // textSize(192);
