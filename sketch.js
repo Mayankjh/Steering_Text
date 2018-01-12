@@ -1,6 +1,6 @@
 var font;
 var vehicles = [];
-//var bg;
+var bg;
 
 
 function preload() {
@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
- // bg = loadImage('17.jpg')
+  bg = loadImage('17.jpg')
   createCanvas(700, 600);
    background(51);
 
@@ -33,7 +33,7 @@ function setup() {
 }
 
 function draw() {
-background(bg);
+background("#212121");
   for (var i = 0; i < vehicles.length; i++) {
     var v = vehicles[i];
     v.behaviors();
